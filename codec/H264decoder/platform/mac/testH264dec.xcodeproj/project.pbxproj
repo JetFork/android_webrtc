@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C572AAA1B9EBD9200B8096F /* testH264dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C572AA91B9EBD9200B8096F /* testH264dec.c */; };
+		9C7AB8571BA00CE9005380DC /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7AB8561BA00CE9005380DC /* libiconv.dylib */; };
+		9CE155681B9ED40F00FFF8F6 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE155621B9ED3CB00FFF8F6 /* libavcodec.a */; };
+		9CE155691B9ED40F00FFF8F6 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE155631B9ED3CB00FFF8F6 /* libavutil.a */; };
+		9CE1556A1B9ED40F00FFF8F6 /* libh264dec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE155641B9ED3CB00FFF8F6 /* libh264dec.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C5540F31B9EA9E9007372E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C5540F51B9EA9E9007372E0 /* testH264dec */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testH264dec; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C572AA91B9EBD9200B8096F /* testH264dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = testH264dec.c; path = ../../test/mac/testH264dec.c; sourceTree = "<group>"; };
+		9C7AB8561BA00CE9005380DC /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		9CE155621B9ED3CB00FFF8F6 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../../bin/mac/Debug/libavcodec.a; sourceTree = "<group>"; };
+		9CE155631B9ED3CB00FFF8F6 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../../bin/mac/Debug/libavutil.a; sourceTree = "<group>"; };
+		9CE155641B9ED3CB00FFF8F6 /* libh264dec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libh264dec.a; path = ../../bin/mac/Debug/libh264dec.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C5540F21B9EA9E9007372E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7AB8571BA00CE9005380DC /* libiconv.dylib in Frameworks */,
+				9CE155681B9ED40F00FFF8F6 /* libavcodec.a in Frameworks */,
+				9CE155691B9ED40F00FFF8F6 /* libavutil.a in Frameworks */,
+				9CE1556A1B9ED40F00FFF8F6 /* libh264dec.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C5540EC1B9EA9E9007372E0 = {
+			isa = PBXGroup;
+			children = (
+				9C7AB8561BA00CE9005380DC /* libiconv.dylib */,
+				9CE155621B9ED3CB00FFF8F6 /* libavcodec.a */,
+				9CE155631B9ED3CB00FFF8F6 /* libavutil.a */,
+				9CE155641B9ED3CB00FFF8F6 /* libh264dec.a */,
+				9C572AA91B9EBD9200B8096F /* testH264dec.c */,
+				9C5540F61B9EA9E9007372E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5540F61B9EA9E9007372E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C5540F51B9EA9E9007372E0 /* testH264dec */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C5540F41B9EA9E9007372E0 /* testH264dec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5540FC1B9EA9E9007372E0 /* Build configuration list for PBXNativeTarget "testH264dec" */;
+			buildPhases = (
+				9C5540F11B9EA9E9007372E0 /* Sources */,
+				9C5540F21B9EA9E9007372E0 /* Frameworks */,
+				9C5540F31B9EA9E9007372E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testH264dec;
+			productName = testH264dec;
+			productReference = 9C5540F51B9EA9E9007372E0 /* testH264dec */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C5540ED1B9EA9E9007372E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Gnet_xxx;
+				TargetAttributes = {
+					9C5540F41B9EA9E9007372E0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C5540F01B9EA9E9007372E0 /* Build configuration list for PBXProject "testH264dec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C5540EC1B9EA9E9007372E0;
+			productRefGroup = 9C5540F61B9EA9E9007372E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C5540F41B9EA9E9007372E0 /* testH264dec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C5540F11B9EA9E9007372E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C572AAA1B9EBD9200B8096F /* testH264dec.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C5540FA1B9EA9E9007372E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9C5540FB1B9EA9E9007372E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C5540FD1B9EA9E9007372E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../bin/mac/Debug,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = ../../bin/mac;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		9C5540FE1B9EA9E9007372E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../bin/mac/Release,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = ../../bin/mac;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C5540F01B9EA9E9007372E0 /* Build configuration list for PBXProject "testH264dec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5540FA1B9EA9E9007372E0 /* Debug */,
+				9C5540FB1B9EA9E9007372E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5540FC1B9EA9E9007372E0 /* Build configuration list for PBXNativeTarget "testH264dec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5540FD1B9EA9E9007372E0 /* Debug */,
+				9C5540FE1B9EA9E9007372E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C5540ED1B9EA9E9007372E0 /* Project object */;
+}

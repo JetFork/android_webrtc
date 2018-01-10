@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC20912A1B73548E00E0D414 /* svcdeclib.c in Sources */ = {isa = PBXBuildFile; fileRef = CC2091271B73548E00E0D414 /* svcdeclib.c */; };
+		CC20912B1B73548E00E0D414 /* svcdecrtp.c in Sources */ = {isa = PBXBuildFile; fileRef = CC2091281B73548E00E0D414 /* svcdecrtp.c */; };
+		CC20912C1B73548E00E0D414 /* unpacketServer.c in Sources */ = {isa = PBXBuildFile; fileRef = CC2091291B73548E00E0D414 /* unpacketServer.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC20910B1B73544E00E0D414 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC20910D1B73544E00E0D414 /* libsvcdec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsvcdec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2091271B73548E00E0D414 /* svcdeclib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = svcdeclib.c; path = ../../src/svcdeclib.c; sourceTree = "<group>"; };
+		CC2091281B73548E00E0D414 /* svcdecrtp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = svcdecrtp.c; path = ../../src/svcdecrtp.c; sourceTree = "<group>"; };
+		CC2091291B73548E00E0D414 /* unpacketServer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = unpacketServer.c; path = ../../src/unpacketServer.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC20910A1B73544E00E0D414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC2091041B73544E00E0D414 = {
+			isa = PBXGroup;
+			children = (
+				CC2091271B73548E00E0D414 /* svcdeclib.c */,
+				CC2091281B73548E00E0D414 /* svcdecrtp.c */,
+				CC2091291B73548E00E0D414 /* unpacketServer.c */,
+				CC20910E1B73544E00E0D414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC20910E1B73544E00E0D414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC20910D1B73544E00E0D414 /* libsvcdec.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC20910C1B73544E00E0D414 /* svcdec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2091211B73544E00E0D414 /* Build configuration list for PBXNativeTarget "svcdec" */;
+			buildPhases = (
+				CC2091091B73544E00E0D414 /* Sources */,
+				CC20910A1B73544E00E0D414 /* Frameworks */,
+				CC20910B1B73544E00E0D414 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = svcdec;
+			productName = svcdec;
+			productReference = CC20910D1B73544E00E0D414 /* libsvcdec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC2091051B73544E00E0D414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = gnet;
+				TargetAttributes = {
+					CC20910C1B73544E00E0D414 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = CC2091081B73544E00E0D414 /* Build configuration list for PBXProject "svcdec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC2091041B73544E00E0D414;
+			productRefGroup = CC20910E1B73544E00E0D414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC20910C1B73544E00E0D414 /* svcdec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC2091091B73544E00E0D414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC20912A1B73548E00E0D414 /* svcdeclib.c in Sources */,
+				CC20912B1B73548E00E0D414 /* svcdecrtp.c in Sources */,
+				CC20912C1B73548E00E0D414 /* unpacketServer.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC20911F1B73544E00E0D414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC2091201B73544E00E0D414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC2091221B73544E00E0D414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = SVC_DECODER_IOS;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../src\"";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		CC2091231B73544E00E0D414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = SVC_DECODER_IOS;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../src\"";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC2091081B73544E00E0D414 /* Build configuration list for PBXProject "svcdec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC20911F1B73544E00E0D414 /* Debug */,
+				CC2091201B73544E00E0D414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2091211B73544E00E0D414 /* Build configuration list for PBXNativeTarget "svcdec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2091221B73544E00E0D414 /* Debug */,
+				CC2091231B73544E00E0D414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC2091051B73544E00E0D414 /* Project object */;
+}

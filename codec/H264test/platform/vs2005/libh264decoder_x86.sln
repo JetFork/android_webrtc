@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tsth264decoder_x86", "tsth264decoder_x86.vcproj", "{4B5273D8-383A-4E47-BEB6-1C19F58C0976}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7738E033-EBC5-4C78-9FF4-27C59634D766} = {7738E033-EBC5-4C78-9FF4-27C59634D766}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libh264decoder_x86", "libh264decoder_x86.vcproj", "{7738E033-EBC5-4C78-9FF4-27C59634D766}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B5273D8-383A-4E47-BEB6-1C19F58C0976}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B5273D8-383A-4E47-BEB6-1C19F58C0976}.Debug|Win32.Build.0 = Debug|Win32
+		{4B5273D8-383A-4E47-BEB6-1C19F58C0976}.Release|Win32.ActiveCfg = Release|Win32
+		{4B5273D8-383A-4E47-BEB6-1C19F58C0976}.Release|Win32.Build.0 = Release|Win32
+		{7738E033-EBC5-4C78-9FF4-27C59634D766}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7738E033-EBC5-4C78-9FF4-27C59634D766}.Debug|Win32.Build.0 = Debug|Win32
+		{7738E033-EBC5-4C78-9FF4-27C59634D766}.Release|Win32.ActiveCfg = Release|Win32
+		{7738E033-EBC5-4C78-9FF4-27C59634D766}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

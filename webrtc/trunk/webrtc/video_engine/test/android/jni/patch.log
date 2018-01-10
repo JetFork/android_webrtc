@@ -1,0 +1,121 @@
+*** Android.mk	2014-04-09 23:45:44.126454242 +0800
+--- Android.mk_bk	2014-04-09 02:22:54.883597543 +0800
+***************
+*** 16,63 ****
+  MY_LIBS_PATH := ../../../../../out/$(BUILDTYPE)/obj.target
+  
+  include $(CLEAR_VARS)
+- LOCAL_MODULE := libavcodec
+- LOCAL_SRC_FILES := \
+-     $(MY_LIBS_PATH)/webrtc/modules/libavcodec.a
+- include $(PREBUILT_STATIC_LIBRARY)
+- 
+- include $(CLEAR_VARS)
+- LOCAL_MODULE := libavutil
+- LOCAL_SRC_FILES := \
+-     $(MY_LIBS_PATH)/webrtc/modules/libavutil.a
+- include $(PREBUILT_STATIC_LIBRARY)
+- 
+- include $(CLEAR_VARS)
+- LOCAL_MODULE := libavformat
+- LOCAL_SRC_FILES := \
+-     $(MY_LIBS_PATH)/webrtc/modules/libavformat.a
+- include $(PREBUILT_STATIC_LIBRARY)
+- 
+- include $(CLEAR_VARS)
+- LOCAL_MODULE := libswscale
+- LOCAL_SRC_FILES := \
+-     $(MY_LIBS_PATH)/webrtc/modules/libswscale.a
+- include $(PREBUILT_STATIC_LIBRARY)
+- 
+- include $(CLEAR_VARS)
+- LOCAL_MODULE := libswresample
+- LOCAL_SRC_FILES := \
+-     $(MY_LIBS_PATH)/webrtc/modules/libswresample.a
+- include $(PREBUILT_STATIC_LIBRARY)
+- 
+- include $(CLEAR_VARS)
+- LOCAL_MODULE := libavfilter
+- LOCAL_SRC_FILES := \
+-     $(MY_LIBS_PATH)/webrtc/modules/libavfilter.a
+- include $(PREBUILT_STATIC_LIBRARY)
+- 
+- include $(CLEAR_VARS)
+- LOCAL_MODULE := libx264
+- LOCAL_SRC_FILES := \
+-     $(MY_LIBS_PATH)/webrtc/modules/libx264.a
+- include $(PREBUILT_STATIC_LIBRARY)
+- 
+- include $(CLEAR_VARS)
+  LOCAL_MODULE := libvoice_engine_core
+  LOCAL_SRC_FILES := \
+      $(MY_LIBS_PATH)/webrtc/voice_engine/libvoice_engine_core.a
+--- 16,21 ----
+***************
+*** 78,84 ****
+  include $(CLEAR_VARS)
+  LOCAL_MODULE := libwebrtc_video_coding
+  LOCAL_SRC_FILES := \
+!     $(MY_LIBS_PATH)/webrtc/modules/libwebrtc_video_coding.a 
+  include $(PREBUILT_STATIC_LIBRARY)
+  
+  include $(CLEAR_VARS)
+--- 36,42 ----
+  include $(CLEAR_VARS)
+  LOCAL_MODULE := libwebrtc_video_coding
+  LOCAL_SRC_FILES := \
+!     $(MY_LIBS_PATH)/webrtc/modules/libwebrtc_video_coding.a
+  include $(PREBUILT_STATIC_LIBRARY)
+  
+  include $(CLEAR_VARS)
+***************
+*** 279,284 ****
+--- 237,284 ----
+  include $(PREBUILT_STATIC_LIBRARY)
+  
+  include $(CLEAR_VARS)
++ LOCAL_MODULE := libavcodec
++ LOCAL_SRC_FILES := \
++     $(MY_LIBS_PATH)/webrtc/modules/libavcodec.a
++ include $(PREBUILT_STATIC_LIBRARY)
++ 
++ include $(CLEAR_VARS)
++ LOCAL_MODULE := libavutil
++ LOCAL_SRC_FILES := \
++     $(MY_LIBS_PATH)/webrtc/modules/libavutil.a
++ include $(PREBUILT_STATIC_LIBRARY)
++ 
++ include $(CLEAR_VARS)
++ LOCAL_MODULE := libavformat
++ LOCAL_SRC_FILES := \
++     $(MY_LIBS_PATH)/webrtc/modules/libavformat.a
++ include $(PREBUILT_STATIC_LIBRARY)
++ 
++ include $(CLEAR_VARS)
++ LOCAL_MODULE := libswscale
++ LOCAL_SRC_FILES := \
++     $(MY_LIBS_PATH)/webrtc/modules/libswscale.a
++ include $(PREBUILT_STATIC_LIBRARY)
++ 
++ include $(CLEAR_VARS)
++ LOCAL_MODULE := libswresample
++ LOCAL_SRC_FILES := \
++     $(MY_LIBS_PATH)/webrtc/modules/libswresample.a
++ include $(PREBUILT_STATIC_LIBRARY)
++ 
++ include $(CLEAR_VARS)
++ LOCAL_MODULE := libavfilter
++ LOCAL_SRC_FILES := \
++     $(MY_LIBS_PATH)/webrtc/modules/libavfilter.a
++ include $(PREBUILT_STATIC_LIBRARY)
++ 
++ include $(CLEAR_VARS)
++ LOCAL_MODULE := libx264
++ LOCAL_SRC_FILES := \
++     $(MY_LIBS_PATH)/webrtc/modules/libx264.a
++ include $(PREBUILT_STATIC_LIBRARY)
++ 
++ include $(CLEAR_VARS)
+  LOCAL_MODULE := libwebrtc_i420
+  LOCAL_SRC_FILES := \
+      $(MY_LIBS_PATH)/webrtc/modules/libwebrtc_i420.a

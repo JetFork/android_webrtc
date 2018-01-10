@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:H264decoder/platform/mac/h264dec.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:H264encoder/platform/mac/h264enc.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:svcdecoder/platform/mac/svcdec.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:svcencoder/platform/mac/svcenc.xcodeproj">
+   </FileRef>
+</Workspace>

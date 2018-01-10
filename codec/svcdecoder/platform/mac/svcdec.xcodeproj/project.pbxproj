@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C5AD8A21B9E834500AD359D /* svcdeclib.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C5AD89F1B9E834500AD359D /* svcdeclib.c */; };
+		9C5AD8A31B9E834500AD359D /* svcdecrtp.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C5AD8A01B9E834500AD359D /* svcdecrtp.c */; };
+		9C5AD8A41B9E834500AD359D /* unpacketServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C5AD8A11B9E834500AD359D /* unpacketServer.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C5AD8911B9E830200AD359D /* libsvcdec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsvcdec.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5AD89F1B9E834500AD359D /* svcdeclib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = svcdeclib.c; path = ../../src/svcdeclib.c; sourceTree = "<group>"; };
+		9C5AD8A01B9E834500AD359D /* svcdecrtp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = svcdecrtp.c; path = ../../src/svcdecrtp.c; sourceTree = "<group>"; };
+		9C5AD8A11B9E834500AD359D /* unpacketServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = unpacketServer.c; path = ../../src/unpacketServer.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C5AD88E1B9E830200AD359D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C5AD8881B9E830200AD359D = {
+			isa = PBXGroup;
+			children = (
+				9C5AD89F1B9E834500AD359D /* svcdeclib.c */,
+				9C5AD8A01B9E834500AD359D /* svcdecrtp.c */,
+				9C5AD8A11B9E834500AD359D /* unpacketServer.c */,
+				9C5AD8921B9E830200AD359D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5AD8921B9E830200AD359D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C5AD8911B9E830200AD359D /* libsvcdec.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C5AD88F1B9E830200AD359D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C5AD8901B9E830200AD359D /* svcdec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C5AD89C1B9E830200AD359D /* Build configuration list for PBXNativeTarget "svcdec" */;
+			buildPhases = (
+				9C5AD88D1B9E830200AD359D /* Sources */,
+				9C5AD88E1B9E830200AD359D /* Frameworks */,
+				9C5AD88F1B9E830200AD359D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = svcdec;
+			productName = svcdec;
+			productReference = 9C5AD8911B9E830200AD359D /* libsvcdec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C5AD8891B9E830200AD359D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Gnet_xxx;
+				TargetAttributes = {
+					9C5AD8901B9E830200AD359D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C5AD88C1B9E830200AD359D /* Build configuration list for PBXProject "svcdec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C5AD8881B9E830200AD359D;
+			productRefGroup = 9C5AD8921B9E830200AD359D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C5AD8901B9E830200AD359D /* svcdec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C5AD88D1B9E830200AD359D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5AD8A41B9E834500AD359D /* unpacketServer.c in Sources */,
+				9C5AD8A31B9E834500AD359D /* svcdecrtp.c in Sources */,
+				9C5AD8A21B9E834500AD359D /* svcdeclib.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C5AD89A1B9E830200AD359D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9C5AD89B1B9E830200AD359D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C5AD89D1B9E830200AD359D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = ../../bin/mac;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../src\"";
+			};
+			name = Debug;
+		};
+		9C5AD89E1B9E830200AD359D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = ../../bin/mac;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../src\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C5AD88C1B9E830200AD359D /* Build configuration list for PBXProject "svcdec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5AD89A1B9E830200AD359D /* Debug */,
+				9C5AD89B1B9E830200AD359D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C5AD89C1B9E830200AD359D /* Build configuration list for PBXNativeTarget "svcdec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C5AD89D1B9E830200AD359D /* Debug */,
+				9C5AD89E1B9E830200AD359D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C5AD8891B9E830200AD359D /* Project object */;
+}

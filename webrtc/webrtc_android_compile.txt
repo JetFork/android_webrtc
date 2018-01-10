@@ -1,0 +1,8 @@
+1. 进入trunk 目录
+2. rm -r ./out/Release 
+3. 编译tangclient库:
+	make BUILDTYPE=Release
+   编译SDK库:
+    make BUILDTYPE=Release RENDERTYPE=SDK
+
+SVC code 库文件生成需要放到/usr/local/arm_inst/lib

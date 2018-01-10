@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tang/!svn/ver/20108/trunk/src/av/client/Engine/webrtc_sdk/Android/android_branch/webrtc_so/jni
+END
+interface.cc
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tang/!svn/ver/19230/trunk/src/av/client/Engine/webrtc_sdk/Android/android_branch/webrtc_so/jni/interface.cc
+END
+Android.mk
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tang/!svn/ver/20108/trunk/src/av/client/Engine/webrtc_sdk/Android/android_branch/webrtc_so/jni/Android.mk
+END
+interface.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tang/!svn/ver/19230/trunk/src/av/client/Engine/webrtc_sdk/Android/android_branch/webrtc_so/jni/interface.h
+END
+Application.mk
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/tang/!svn/ver/6846/trunk/src/av/client/Engine/webrtc_sdk/Android/android_branch/webrtc_so/jni/Application.mk
+END

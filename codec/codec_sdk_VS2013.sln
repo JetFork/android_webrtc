@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsvcencoder_x86", "svcencoder\platform\vs2005\libsvcencoder_x86.vcxproj", "{90FA9BBA-DA1C-435A-8B9A-1D3509727D55}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsvcdec_x86", "svcdecoder\platform\vs2005\libsvcdec_x86.vcxproj", "{CB0C32E1-B56E-4DEF-AF90-686A845C40A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libh264_encoder_x86", "H264encoder\platform\vs2005\libh264_encoder_x86.vcxproj", "{0AE86933-9AEE-462E-802B-CC3666022F20}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libh264decoder_x86", "H264decoder\platform\vs2005\libh264decoder_x86.vcxproj", "{7738E033-EBC5-4C78-9FF4-27C59634D766}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90FA9BBA-DA1C-435A-8B9A-1D3509727D55}.Debug|Win32.ActiveCfg = Debug|Win32
+		{90FA9BBA-DA1C-435A-8B9A-1D3509727D55}.Debug|Win32.Build.0 = Debug|Win32
+		{90FA9BBA-DA1C-435A-8B9A-1D3509727D55}.Release|Win32.ActiveCfg = Release|Win32
+		{90FA9BBA-DA1C-435A-8B9A-1D3509727D55}.Release|Win32.Build.0 = Release|Win32
+		{CB0C32E1-B56E-4DEF-AF90-686A845C40A1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB0C32E1-B56E-4DEF-AF90-686A845C40A1}.Debug|Win32.Build.0 = Debug|Win32
+		{CB0C32E1-B56E-4DEF-AF90-686A845C40A1}.Release|Win32.ActiveCfg = Release|Win32
+		{CB0C32E1-B56E-4DEF-AF90-686A845C40A1}.Release|Win32.Build.0 = Release|Win32
+		{0AE86933-9AEE-462E-802B-CC3666022F20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0AE86933-9AEE-462E-802B-CC3666022F20}.Debug|Win32.Build.0 = Debug|Win32
+		{0AE86933-9AEE-462E-802B-CC3666022F20}.Release|Win32.ActiveCfg = Release|Win32
+		{0AE86933-9AEE-462E-802B-CC3666022F20}.Release|Win32.Build.0 = Release|Win32
+		{7738E033-EBC5-4C78-9FF4-27C59634D766}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7738E033-EBC5-4C78-9FF4-27C59634D766}.Debug|Win32.Build.0 = Debug|Win32
+		{7738E033-EBC5-4C78-9FF4-27C59634D766}.Release|Win32.ActiveCfg = Release|Win32
+		{7738E033-EBC5-4C78-9FF4-27C59634D766}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
