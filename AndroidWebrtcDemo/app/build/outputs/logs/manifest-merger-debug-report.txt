@@ -1,0 +1,114 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:2:1-62:12
+	package
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:5:5-31
+		INJECTED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:7:5-45:19
+	android:label
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:9:9-41
+	android:icon
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:8:9-38
+activity#org.webrtc.videoengineapp.LoginLayoutActivity
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:10:9-22:20
+	android:screenOrientation
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:13:13-47
+	android:label
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:12:13-64
+	android:configChanges
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:15:13-90
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:11:13-73
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:20:27-74
+activity#org.webrtc.videoengineapp.WebRTCDemo
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:23:9-34:20
+	android:screenOrientation
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:26:13-47
+	android:label
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:25:13-45
+	android:configChanges
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:27:13-90
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:24:13-64
+activity#org.webrtc.videoengineapp.InternetViewActivity
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:35:9-39:20
+	android:screenOrientation
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:37:13-50
+	android:label
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:38:13-65
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:36:13-74
+activity#org.webrtc.videoengineapp.FullActivity
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:40:9-44:20
+	android:screenOrientation
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:42:13-50
+	android:label
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:43:13-53
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:41:13-66
+uses-sdk
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:47:5-44
+	android:targetSdkVersion
+		INJECTED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:47:15-41
+		INJECTED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml
+		INJECTED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:49:5-50:23
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:49:22-62
+uses-feature#android.hardware.camera
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:52:5-60
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:52:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:53:5-70
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:53:19-67
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:55:5-80
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:55:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:56:5-71
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:56:22-68
+uses-permission#android.permission.INTERNET
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:57:5-67
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:57:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:58:5-68
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:58:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:59:5-81
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:59:22-78
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:60:5-95
+	android:name
+		ADDED from E:\videoDEMO\AndroidWebrtcDemo\app\src\main\AndroidManifest.xml:60:22-76

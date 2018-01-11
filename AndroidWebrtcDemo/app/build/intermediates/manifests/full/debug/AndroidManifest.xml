@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.webrtc.videoengineapp"
+    android:versionCode="1"
+    android:versionName="1.07" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name="org.webrtc.videoengineapp.LoginLayoutActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:label="@string/title_activity_login_layout"
+            android:screenOrientation="sensor" >
+
+            <!-- android:screenOrientation="landscape" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.webrtc.videoengineapp.WebRTCDemo"
+            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection"
+            android:label="@string/app_name"
+            android:screenOrientation="sensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- android:screenOrientation="landscape" -->
+        </activity>
+        <activity
+            android:name="org.webrtc.videoengineapp.InternetViewActivity"
+            android:label="@string/title_activity_internet_view"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="org.webrtc.videoengineapp.FullActivity"
+            android:label="@string/title_fullScreen"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

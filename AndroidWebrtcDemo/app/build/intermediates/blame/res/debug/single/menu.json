@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\internet_view.xml",
+        "source": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\src\\main\\res\\menu\\internet_view.xml"
+    },
+    {
+        "merged": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\login_layout.xml",
+        "source": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\src\\main\\res\\menu\\login_layout.xml"
+    }
+]

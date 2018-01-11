@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab_1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+    
+   
+      
+      <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            
+           <LinearLayout
+            android:id="@+id/llRemoteView"
+            android:layout_width="300px"
+            android:layout_height="400px"
+            android:layout_weight="2"
+            android:layout_gravity="right"
+            android:scaleType = "center"
+            android:orientation="horizontal" >
+        
+            </LinearLayout>
+             <LinearLayout
+            android:id="@+id/llRemoteView2"
+            android:layout_width="300px"
+            android:layout_height="400px"
+            android:layout_weight="2"
+            android:layout_gravity="right"
+            android:scaleType = "center"
+            android:orientation="horizontal" >
+        
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="140dip"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+                
+                <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="140dip"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+                
+                    <Button
+                    android:id="@+id/btStartCapture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/startCapture" />
+
+                    <Button
+                    android:id="@+id/btStartSend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/startSend" />
+
+                    <Button
+                    android:id="@+id/btStartReceive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/startReceive" />
+
+                </LinearLayout>
+               
+                <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="140dip"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                    <Button
+                    android:id="@+id/btSwitchCamera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/backCamera" />
+        
+                    <Button
+                    android:id="@+id/btFullScreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/fullScreen" />         
+                    <Button
+                    android:id="@+id/btSetCaptureFlashlight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/flashlight" />           
+                </LinearLayout>
+                 
+                <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="140dip"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                    <Button
+                    android:id="@+id/btSnapLocal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/snapLocal" />
+        
+                    <Button
+                    android:id="@+id/btSnapRemote"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/snapRemote" />
+                    
+                    <Button
+                    android:id="@+id/btStartPlayFlv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/startPlayFlv" />
+
+                    <Button
+                    android:id="@+id/btExit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/exit" />
+                </LinearLayout>
+       
+            </LinearLayout>
+            
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="140dip"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+                
+                <TextView
+                android:id="@+id/statView"
+                android:layout_width="140dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="" />
+                
+            </LinearLayout>
+            
+            <LinearLayout
+            android:id="@+id/llLocalView"
+            android:layout_width="80dip"
+            android:layout_height="140dip"
+            android:layout_weight="2"
+            android:layout_gravity="right"
+            android:orientation="horizontal" >
+                
+            </LinearLayout>
+            
+      </LinearLayout>
+   
+</LinearLayout>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_tableview.xml",
+        "source": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\src\\main\\res\\layout\\single_tableview.xml"
+    },
+    {
+        "merged": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_layout.xml",
+        "source": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\src\\main\\res\\layout\\activity_login_layout.xml"
+    },
+    {
+        "merged": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_gsetting.xml",
+        "source": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\src\\main\\res\\layout\\single_gsetting.xml"
+    },
+    {
+        "merged": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_asetting.xml",
+        "source": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\src\\main\\res\\layout\\single_asetting.xml"
+    },
+    {
+        "merged": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_layout.xml",
+        "source": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\src\\main\\res\\layout\\login_layout.xml"
+    },
+    {
+        "merged": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_main.xml",
+        "source": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\src\\main\\res\\layout\\single_main.xml"
+    },
+    {
+        "merged": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_vsetting.xml",
+        "source": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\src\\main\\res\\layout\\single_vsetting.xml"
+    },
+    {
+        "merged": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row.xml",
+        "source": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\src\\main\\res\\layout\\row.xml"
+    },
+    {
+        "merged": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_internet_view.xml",
+        "source": "E:\\videoDEMO\\AndroidWebrtcDemo\\app\\src\\main\\res\\layout\\activity_internet_view.xml"
+    }
+]
